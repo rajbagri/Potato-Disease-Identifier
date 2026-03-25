@@ -35,3 +35,6 @@ logs/
 # Ignore reference images
 reference_images/
 
+data/
+*.pdf
+
