@@ -35,7 +35,3 @@ logs/
 # Ignore reference images
 reference_images/
 
-data/
-*.pdf
-evaluation_dataset_v2.json
-evaluation_results.csv

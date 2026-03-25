@@ -78,12 +78,18 @@ async def startup_event():
         raise
     
     # Load retriever and RAG chain
+    # Load or build retriever and RAG chain
     try:
+        if not os.path.exists("faiss_index_multimodal"):
+            print(" FAISS index not found. Building index...")
+            from src.ingestion import run_ingestion
+            run_ingestion()
+
         retriever = load_retriever_from_disk()
         qa_chain = create_conversational_chain(retriever)
-        print(" RAG chain loaded successfully")
+        print(" RAG chain ready")
     except Exception as e:
-        print(f" RAG chain loading failed: {e}")
+        print(f" RAG setup failed: {e}")
         raise
     
     # Load CLIP image analyzer (non-blocking — app works without it)

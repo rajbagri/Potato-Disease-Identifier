@@ -1,0 +1,1172 @@
+[
+  {
+    "question": "What are the primary symptoms of Blackleg in potato plants?",
+    "ground_truth": "Blackleg symptoms include soft rot of seed pieces, black to brown discoloration of the stem extending from the seed piece to above ground portions of the stem, and stunting and wilting of affected stems.",
+    "source_document": "BACTERIAL AND FUNGAL.pdf"
+  },
+  {
+    "question": "How can Aerial Stem Rot be differentiated from Blackleg?",
+    "ground_truth": "Aerial Stem Rot occurs higher up the stem and spreads downward, while Blackleg occurs from the ground up.",
+    "source_document": "BACTERIAL AND FUNGAL.pdf"
+  },
+  {
+    "question": "What management practices are recommended to control Soft Rot in potatoes?",
+    "ground_truth": "Management of Soft Rot requires avoiding harvest when temperatures are >65-75ºF, ensuring good skin set before harvest, protecting harvested tubers from sunscald, avoiding bruising during harvest, and disinfecting storage and handling equipment.",
+    "source_document": "BACTERIAL AND FUNGAL.pdf"
+  },
+  {
+    "question": "What is the significance of Ring Rot in potato cultivation, and how is it managed?",
+    "ground_truth": "Ring Rot, caused by Clavibacter michiganensis subsp. sepedonicus, is a zero tolerance disease that can severely impact certified seed growers. Management includes producing disease-free seed, strict sanitation, and PCR testing of tissue cultures.",
+    "source_document": "BACTERIAL AND FUNGAL.pdf"
+  },
+  {
+    "question": "What are the primary symptoms of bacterial ring rot in potato plants?",
+    "ground_truth": "Symptoms include interveinal chlorosis on leaflets leading to necrotic areas and systemic wilt. Infected tubers show yellowish-brown vascular tissues with a cheesy texture due to bacterial colonization and decay.",
+    "source_document": "Bacterial ring rot of potato caused by Clavibacter sepedonicus.pdf"
+  },
+  {
+    "question": "How is Clavibacter sepedonicus primarily transmitted in potato cultivation?",
+    "ground_truth": "The pathogen is seed-borne, transmitted long distances via infected tubers rather than true seeds.",
+    "source_document": "Bacterial ring rot of potato caused by Clavibacter sepedonicus.pdf"
+  },
+  {
+    "question": "What environmental conditions favor the spread of bacterial ring rot?",
+    "ground_truth": "Cool and humid weather conditions favor the spread of bacterial ring rot, leading to overall wilt and potential collapse of the entire plant.",
+    "source_document": "Bacterial ring rot of potato caused by Clavibacter sepedonicus.pdf"
+  },
+  {
+    "question": "What is the economic impact of bacterial ring rot on potato production?",
+    "ground_truth": "The economic damage is significant due to costs from rejection of infected seed lots and loss of export markets, despite low direct crop loss in regular production systems.",
+    "source_document": "Bacterial ring rot of potato caused by Clavibacter sepedonicus.pdf"
+  },
+  {
+    "question": "Which other plant species can be infected by Clavibacter sepedonicus?",
+    "ground_truth": "In addition to potato, natural infections also occur on eggplant, tomato, and sugar beet.",
+    "source_document": "Bacterial ring rot of potato caused by Clavibacter sepedonicus.pdf"
+  },
+  {
+    "question": "What are the recommended methods for managing bacterial ring rot in potato cultivation?",
+    "ground_truth": "Management includes using pathogen-free tubers for planting, strict hygiene measures, and following community-wide surveillance and eradication protocols.",
+    "source_document": "Bacterial ring rot of potato caused by Clavibacter sepedonicus.pdf"
+  },
+  {
+    "question": "What role does temperature play in the immunity of Solanum acaule to Clavibacter sepedonicus?",
+    "ground_truth": "Solanum acaule exhibits temperature-dependent immunity; it is immune at 21°C but supports a large population of the pathogen at 15°C.",
+    "source_document": "Bacterial ring rot of potato caused by Clavibacter sepedonicus.pdf"
+  },
+  {
+    "question": "What are the microbiological properties of Clavibacter sepedonicus?",
+    "ground_truth": "Clavibacter sepedonicus is a gram-positive, club-shaped, nonmotile bacterium with creamy to yellowish-cream colonies, optimal growth temperature of 20–23°C.",
+    "source_document": "Bacterial ring rot of potato caused by Clavibacter sepedonicus.pdf"
+  },
+  {
+    "question": "How can Clavibacter sepedonicus be detected in potato tubers?",
+    "ground_truth": "Detection methods include serological techniques, specific PCR, DNA fingerprinting, and nucleotide sequencing, with a focus on efficient standardized DNA extraction.",
+    "source_document": "Bacterial ring rot of potato caused by Clavibacter sepedonicus.pdf"
+  },
+  {
+    "question": "What is the significance of the genome of Clavibacter sepedonicus in understanding its pathogenicity?",
+    "ground_truth": "The genome contains insights into pathogenicity determinants, including genes involved in virulence, and suggests recent adaptation for life in the vascular tissues of host plants.",
+    "source_document": "Bacterial ring rot of potato caused by Clavibacter sepedonicus.pdf"
+  },
+  {
+    "question": "What are the primary bacteria associated with blackleg and soft rot in potatoes?",
+    "ground_truth": "The primary bacteria associated with blackleg and soft rot in potatoes are Pectobacterium atrosepticum and Pectobacterium carotovorum subsp. carotovorum.",
+    "source_document": "Bacterial Soft Rot, Blackleg, and Lenticel Rot.pdf"
+  },
+  {
+    "question": "What are the symptoms of blackleg in potato plants?",
+    "ground_truth": "Symptoms of blackleg include curling leaves, gradual yellowing of foliage, wilting due to root and stem rotting, mushy light brown-to-black lesions at the soil line, and the formation of aerial tubers on stems.",
+    "source_document": "Bacterial Soft Rot, Blackleg, and Lenticel Rot.pdf"
+  },
+  {
+    "question": "What cultural practices can help control bacterial soft rot in potatoes?",
+    "ground_truth": "Cultural practices to control bacterial soft rot include minimizing bacterial contamination in seed tubers, avoiding injuries during handling, sanitizing seed-handling equipment, allowing cut seed to heal before planting, and ensuring proper irrigation practices.",
+    "source_document": "Bacterial Soft Rot, Blackleg, and Lenticel Rot.pdf"
+  },
+  {
+    "question": "What conditions favor the spread of soft rot bacteria in potato cultivation?",
+    "ground_truth": "Soft rot bacteria thrive in moist, cool conditions, particularly when tuber temperatures are warm and when tubers are packed directly from the field.",
+    "source_document": "Bacterial Soft Rot, Blackleg, and Lenticel Rot.pdf"
+  },
+  {
+    "question": "What are the primary symptoms of Blackleg in potato plants?",
+    "ground_truth": "Infected seed potatoes decay in the ground causing sprouts to fail to emerge. Stems of plants that do emerge develop water-soaked lesions, become stunted, and turn yellow-green. Leaves turn yellow as infections progress, and decaying stems turn black.",
+    "source_document": "Blackleg & Soft Rot of Potato.pdf"
+  },
+  {
+    "question": "What organisms are responsible for causing Blackleg and bacterial soft rot in potatoes?",
+    "ground_truth": "Blackleg and bacterial soft rot are caused by various species of bacteria within the genera Pectobacterium and Dickeya.",
+    "source_document": "Blackleg & Soft Rot of Potato.pdf"
+  },
+  {
+    "question": "What cultural practices can be implemented to manage Blackleg and soft rot in potato cultivation?",
+    "ground_truth": "Cultural practices include rotating out of potatoes for 1 to 2 years, purchasing certified disease-free seed pieces, storing seed tubers at 40°F before planting, and planting in well-drained sites.",
+    "source_document": "Blackleg & Soft Rot of Potato.pdf"
+  },
+  {
+    "question": "How does weather influence the development and spread of Blackleg in potato crops?",
+    "ground_truth": "Cool wet weather initially induces disease development in tubers, while high temperatures encourage disease once plants emerge. Abundant moisture at the surface of wounded tissue is needed for infection, and continued moisture or high humidity after infection causes disease spread.",
+    "source_document": "Blackleg & Soft Rot of Potato.pdf"
+  },
+  {
+    "question": "What pathogen is responsible for Blackleg stem rot and tuber rot in potatoes?",
+    "ground_truth": "Blackleg stem rot and tuber rot are caused by Pectobacterium, specifically Pectobacterium parmentieri.",
+    "source_document": "Blackleg stem rot and tuber rot caused by Pectobacterium.pdf"
+  },
+  {
+    "question": "What weather event may have contributed to the spread of Pectobacterium to the tubers?",
+    "ground_truth": "An intense rain event on 18 August 2017, which recorded 2.86 inches of rainfall over 2 hours, may have helped move bacteria from stems to tubers.",
+    "source_document": "Blackleg stem rot and tuber rot caused by Pectobacterium.pdf"
+  },
+  {
+    "question": "How can Pectobacterium spp. be managed in potato cultivation?",
+    "ground_truth": "Pectobacterium spp. are managed primarily by planting uncontaminated seed in a field where potatoes were not grown the previous year.",
+    "source_document": "Blackleg stem rot and tuber rot caused by Pectobacterium.pdf"
+  },
+  {
+    "question": "What method can be used to manage aerial stem rot in potatoes?",
+    "ground_truth": "Aerial stem rot can be managed with applications of copper fungicides.",
+    "source_document": "Blackleg stem rot and tuber rot caused by Pectobacterium.pdf"
+  },
+  {
+    "question": "What is the primary cause of Brown Rot in potatoes?",
+    "ground_truth": "Brown rot is caused by the bacterium Ralstonia solanacearum.",
+    "source_document": "Brown Rot.pdf"
+  },
+  {
+    "question": "What are the main symptoms of Brown Rot in potato tubers?",
+    "ground_truth": "The symptoms you are most likely to see are in the tuber, which can include wilting of the potato plant and tuber rotting.",
+    "source_document": "Brown Rot.pdf"
+  },
+  {
+    "question": "How does Brown Rot spread in potato crops?",
+    "ground_truth": "The most effective means of spread of brown rot worldwide is through distribution and planting of infected seed potatoes. In England, outbreaks have primarily been due to waterlogging associated with infected watercourses.",
+    "source_document": "Brown Rot.pdf"
+  },
+  {
+    "question": "What measures are in place to control the spread of Brown Rot in the UK?",
+    "ground_truth": "Control measures include prohibiting the importation of material carrying the disease, conducting import inspections of seed potatoes, and implementing a potato brown rot contingency plan aimed at preventing its spread and eradicating it if found.",
+    "source_document": "Brown Rot.pdf"
+  },
+  {
+    "question": "What is the primary challenge faced by organic potato producers according to the document?",
+    "ground_truth": "The two main challenges for organic potato producers are disease and nutrient management.",
+    "source_document": "Challenges to Organic Potato Farming Disease.pdf"
+  },
+  {
+    "question": "How do copper fungicides affect late blight epidemics in organic potato farming?",
+    "ground_truth": "Copper fungicides can slow down late blight epidemics, adding an average of 3 days to the growth duration, but only 30% of the variation in yield could be attributed to disease reduction.",
+    "source_document": "Challenges to Organic Potato Farming Disease.pdf"
+  },
+  {
+    "question": "What factors limit potato yields in organic farming as discussed in the document?",
+    "ground_truth": "Yields in organic farming are primarily limited by nutrient availability in spring and early summer, and the effects of late blight on yields may often be overestimated.",
+    "source_document": "Challenges to Organic Potato Farming Disease.pdf"
+  },
+  {
+    "question": "What strategies are suggested for managing late blight in organic potato production?",
+    "ground_truth": "Strategies for managing late blight include using resistant varieties, practicing field hygiene, pre-sprouting, early planting, and arranging crops in small narrow fields perpendicular to the main wind direction.",
+    "source_document": "Challenges to Organic Potato Farming Disease.pdf"
+  },
+  {
+    "question": "What pathogen causes Powdery Scab in potatoes, and what are its characteristics?",
+    "ground_truth": "Powdery Scab is caused by the plasmodiophorid pathogen Spongospora subterranea f. sp. subterranea, which is characterized by long-term persistence in soil, high and rapid reproductive potential, and possibly the ability to infect alternative hosts.",
+    "source_document": "Control of Powdery Scab of Potato Towards.pdf"
+  },
+  {
+    "question": "What are the visible symptoms of Powdery Scab on potato tubers?",
+    "ground_truth": "Infection of potato tubers by S. subterranea results in the development of surface lesions, which are the most obvious manifestation of the disease. These lesions drastically reduce tuber quality, particularly where potatoes are washed for sale.",
+    "source_document": "Control of Powdery Scab of Potato Towards.pdf"
+  },
+  {
+    "question": "What integrated management strategies are recommended for controlling Powdery Scab in potatoes?",
+    "ground_truth": "Integrated management strategies for controlling Powdery Scab include crop rotation, pathogen detection, use of resistant cultivars, planting disease-free seed tubers, appropriate pesticide treatments, adjustment of soil nutrient status, and maintaining good hygiene during harvesting and storage.",
+    "source_document": "Control of Powdery Scab of Potato Towards.pdf"
+  },
+  {
+    "question": "How does soil type and condition affect the development of Powdery Scab in potato crops?",
+    "ground_truth": "Free-draining soils are less likely to encourage Powdery Scab development than soils with high water retention. Compacted areas of fields and low-lying areas where rainfall drains can have more severe Powdery Scab than less compacted or water-logged areas.",
+    "source_document": "Control of Powdery Scab of Potato Towards.pdf"
+  },
+  {
+    "question": "What are the primary symptoms of pink rot in potato tubers?",
+    "ground_truth": "Tubers affected by pink rot maintain a normal shape, but the outer skin turns dark and the internal flesh has a rubbery, 'boiled potato' consistency. The internal tissue turns pink after about 15 to 20 minutes of exposure to warm air.",
+    "source_document": "Diagnosis & Management of storage Disease.pdf"
+  },
+  {
+    "question": "What is the role of temperature and humidity in managing potato storage diseases?",
+    "ground_truth": "Temperature, humidity, and airflow are the three basic tools of storage management. Properly identifying the disease allows for the optimal use of these tools to limit pathogen spread and disease development in storage.",
+    "source_document": "Diagnosis & Management of storage Disease.pdf"
+  },
+  {
+    "question": "How can soft rot bacteria spread in potato storage?",
+    "ground_truth": "Soft rot bacteria can invade previously healthy tubers primarily through the lenticels, especially under high temperatures and anaerobic conditions. The breakdown of soft-rotted tubers can lead to localized pockets of rot or 'hot spots' that spread rapidly.",
+    "source_document": "Diagnosis & Management of storage Disease.pdf"
+  },
+  {
+    "question": "What steps should be taken to disinfect storage facilities after emptying them?",
+    "ground_truth": "The disinfection process involves three steps: removing dirt and debris, washing with soap and water, and then applying an appropriate disinfectant while ensuring surfaces remain wet for at least 10 minutes.",
+    "source_document": "Diagnosis & Management of storage Disease.pdf"
+  },
+  {
+    "question": "What conditions favor the development of early blight on potatoes?",
+    "ground_truth": "Favorable conditions for early blight include long periods of leaf wetness and/or high humidity (above 96%) occurring overnight when temperatures are cool (in the 60s and 70s), especially when followed by dry days.",
+    "source_document": "Early blight on potatoes.pdf"
+  },
+  {
+    "question": "What are the visible symptoms of early blight on potato leaves?",
+    "ground_truth": "Early blight symptoms include brown to black spots that develop on leaves, which can enlarge and often develop concentric rings giving the spot a target appearance, with a yellow border possibly developing.",
+    "source_document": "Early blight on potatoes.pdf"
+  },
+  {
+    "question": "How can early blight be managed in potato cultivation?",
+    "ground_truth": "Management of early blight includes delaying harvest after vine death to promote skin set, incorporating crop debris as soon as possible after harvest, rotating land where potatoes are grown, and managing volunteer potatoes and Solanaceous weeds.",
+    "source_document": "Early blight on potatoes.pdf"
+  },
+  {
+    "question": "Which fungicide is considered a top choice for managing early blight in commercial potato production?",
+    "ground_truth": "Inspire Super is considered a top choice when early blight is confirmed in a planting and conditions are favorable.",
+    "source_document": "Early blight on potatoes.pdf"
+  },
+  {
+    "question": "What are the initial symptoms of Late Blight on potato leaves?",
+    "ground_truth": "The initial symptoms appear as pale green water-soaked spots of 2-10 mm size, typically starting at the leaf tips and margins.",
+    "source_document": "Eco-friendly management of late blight of potato using Trichoderma spp. and plant extracts.pdf"
+  },
+  {
+    "question": "Which Trichoderma species showed the highest tuber yield in the study?",
+    "ground_truth": "The highest tuber yield was recorded with Trichoderma viride, at 12.90 t/ha.",
+    "source_document": "Eco-friendly management of late blight of potato using Trichoderma spp. and plant extracts.pdf"
+  },
+  {
+    "question": "What was the effect of Tulsi leaf extract on tuber yield compared to the control treatment?",
+    "ground_truth": "Tulsi leaf extract resulted in a tuber yield of 12.61 t/ha, which is significantly higher than the control treatment that yielded 8.69 t/ha.",
+    "source_document": "Eco-friendly management of late blight of potato using Trichoderma spp. and plant extracts.pdf"
+  },
+  {
+    "question": "How effective was Trichoderma viride in controlling the disease incidence of Late Blight?",
+    "ground_truth": "Trichoderma viride recorded the minimum percent disease index (PDI) of 11.29% and achieved a disease control rate of 59.24%.",
+    "source_document": "Eco-friendly management of late blight of potato using Trichoderma spp. and plant extracts.pdf"
+  },
+  {
+    "question": "What is the primary pathogen responsible for common scab in potatoes?",
+    "ground_truth": "Common scab is caused by Streptomyces spp., with Streptomyces scabies being the most dangerous due to its ability to produce thaxtomin A, a plant phytotoxin.",
+    "source_document": "Effect of Integrated Disease Management (IDM) Practices.pdf"
+  },
+  {
+    "question": "What Integrated Disease Management (IDM) treatment showed the highest reduction in disease severity and incidence for common scab?",
+    "ground_truth": "Treatment T2, which involved soil amendments with gypsum at 2.0 t/ha, tuber treatments with Trichoderma harzianum at 5 g/kg, and a foliar spray of copper oxychloride with streptocycline in a 3:1 ratio, showed the highest reduction in disease severity (3.63%) and incidence (1.79%).",
+    "source_document": "Effect of Integrated Disease Management (IDM) Practices.pdf"
+  },
+  {
+    "question": "How does the application of gypsum affect the physiochemical properties of soil in potato cultivation?",
+    "ground_truth": "The application of gypsum in treatment T2 resulted in a pH value of 5.86 after planting and 5.30 after harvesting, with the minimum Electrical Conductivity (EC) value estimated to be 0.089 S/m after planting and 0.087 S/m after harvesting.",
+    "source_document": "Effect of Integrated Disease Management (IDM) Practices.pdf"
+  },
+  {
+    "question": "What are some of the biocontrol agents explored for managing common scab disease in potatoes?",
+    "ground_truth": "Various biocontrol agents explored include Pseudomonas strains, Streptomyces strains, and Lactobacillus plantarum, which have shown effectiveness in controlling common scab disease.",
+    "source_document": "Effect of Integrated Disease Management (IDM) Practices.pdf"
+  },
+  {
+    "question": "What are the main potato diseases identified in Maine according to the document?",
+    "ground_truth": "The main potato diseases identified in Maine include late blight, early blight, white mold, black dot, Rhizoctonia stem canker, tuber black scuff, silver scurf, bacterial soft rot, and common scab.",
+    "source_document": "Effects of Pest and Soil Management Systems on Potato Diseases.pdf"
+  },
+  {
+    "question": "How did the pest management systems affect the incidence of early blight in 1998?",
+    "ground_truth": "The pest management system significantly affected the incidence of early blight in 1998, with differences observed between the systems.",
+    "source_document": "Effects of Pest and Soil Management Systems on Potato Diseases.pdf"
+  },
+  {
+    "question": "What impact did soil amendments have on tuber-borne diseases in the study?",
+    "ground_truth": "The addition of soil amendments significantly increased the incidence of black dot in both years, but did not significantly affect common scab or silver scurf.",
+    "source_document": "Effects of Pest and Soil Management Systems on Potato Diseases.pdf"
+  },
+  {
+    "question": "Which potato cultivar showed higher susceptibility to early blight and white mold?",
+    "ground_truth": "The cultivar Atlantic showed higher susceptibility to early blight, while the cultivar Superior had a higher incidence of white mold.",
+    "source_document": "Effects of Pest and Soil Management Systems on Potato Diseases.pdf"
+  },
+  {
+    "question": "What are the main potato diseases identified in West Bengal?",
+    "ground_truth": "The serious potato diseases in West Bengal include viruses, Late Blight (Phytophthora infestans), Common Scab (Streptomyces scabies), Black Scurf, and Bacterial Wilt (Ralstonia solanacearum).",
+    "source_document": "Employing_Eco_friendly_potato_disease_ma.pdf"
+  },
+  {
+    "question": "What biological control methods are recommended for managing Late Blight in potatoes?",
+    "ground_truth": "For combating Late Blight, tolerant cultivars are used in combination with seed treatment using Trichoderma viride, a fungal hyperparasite, and other effective biological control methods.",
+    "source_document": "Employing_Eco_friendly_potato_disease_ma.pdf"
+  },
+  {
+    "question": "How does planting date affect the incidence of potato diseases in West Bengal?",
+    "ground_truth": "Planting early in the cropping season helps avoid early incidence and high disease severity of potato viruses, while planting during the 1st week of December reduces the chance of diseased sprouts and tuber rotting.",
+    "source_document": "Employing_Eco_friendly_potato_disease_ma.pdf"
+  },
+  {
+    "question": "What integrated disease management (IDM) strategy was found most effective for potato diseases?",
+    "ground_truth": "The IDM strategy that was most effective involved using disease-free seeds of late blight resistant cultivars, tuber treatment with 3% boric acid, rouging to avoid viruses, and multiple fungicide sprays, resulting in increased total tuber yield and reduced disease severity.",
+    "source_document": "Employing_Eco_friendly_potato_disease_ma.pdf"
+  },
+  {
+    "question": "What are the primary pathogens responsible for bacterial wilt and late blight in potatoes?",
+    "ground_truth": "Bacterial wilt is caused by Ralstonia solanacearum, while late blight is caused by the oomycete Phytophthora infestans.",
+    "source_document": "Farmers’ knowledge and practices of potato disease management in Ethiopia.pdf"
+  },
+  {
+    "question": "What are the common symptoms of bacterial wilt in potato plants?",
+    "ground_truth": "Visible symptoms of bacterial wilt include wilting, stunting, and yellowing of the foliage.",
+    "source_document": "Farmers’ knowledge and practices of potato disease management in Ethiopia.pdf"
+  },
+  {
+    "question": "How does late blight spread, and what conditions favor its development?",
+    "ground_truth": "Late blight spreads predominantly through aerial dispersal and is favored by high moisture and moderate temperatures.",
+    "source_document": "Farmers’ knowledge and practices of potato disease management in Ethiopia.pdf"
+  },
+  {
+    "question": "What management practices are recommended for controlling bacterial wilt?",
+    "ground_truth": "Recommended management practices for bacterial wilt include crop rotation, planting disease-free tuber seed, decontaminating farm tools, and roguing infected plants.",
+    "source_document": "Farmers’ knowledge and practices of potato disease management in Ethiopia.pdf"
+  },
+  {
+    "question": "What percentage of farmers reported using fungicides to manage late blight?",
+    "ground_truth": "More than 87% of the farmers reported practicing fungicide application to manage late blight.",
+    "source_document": "Farmers’ knowledge and practices of potato disease management in Ethiopia.pdf"
+  },
+  {
+    "question": "What is the significance of farmers' knowledge regarding the causal agents of potato diseases?",
+    "ground_truth": "Farmers' limited knowledge of the causal agents of potato diseases hinders effective management practices and contributes to the spread of the diseases.",
+    "source_document": "Farmers’ knowledge and practices of potato disease management in Ethiopia.pdf"
+  },
+  {
+    "question": "What role do mobile phones play in the management of potato diseases among farmers?",
+    "ground_truth": "Mobile phones can facilitate communication among farmers, provide timely information on disease management, and support monitoring of disease prevalence.",
+    "source_document": "Farmers’ knowledge and practices of potato disease management in Ethiopia.pdf"
+  },
+  {
+    "question": "What cultural practices are suggested for managing late blight in potatoes?",
+    "ground_truth": "Cultural practices for managing late blight include scheduling planting times, using early maturing cultivars, and timely destruction of volunteer potato plants.",
+    "source_document": "Farmers’ knowledge and practices of potato disease management in Ethiopia.pdf"
+  },
+  {
+    "question": "How do farmers' practices of handling infected potatoes at harvest affect disease spread?",
+    "ground_truth": "Farmers often leave infected or damaged potatoes in the field, which contributes to the spread of diseases rather than controlling them.",
+    "source_document": "Farmers’ knowledge and practices of potato disease management in Ethiopia.pdf"
+  },
+  {
+    "question": "What is the impact of the lack of a formal seed certification system on potato disease management in Ethiopia?",
+    "ground_truth": "The lack of a formal seed certification system leads to the distribution of infected seed potatoes, exacerbating the prevalence of diseases like bacterial wilt.",
+    "source_document": "Farmers’ knowledge and practices of potato disease management in Ethiopia.pdf"
+  },
+  {
+    "question": "What are the primary symptoms of Late Blight on potato plants?",
+    "ground_truth": "Late Blight affects all plant parts, appearing on leaves as pale green, irregular spots that enlarge into large water-soaked lesions. In moist weather, these spots turn necrotic and dark brown or black, often with a purplish tinge. On stems, light brown elongate lesions develop, and tubers show a shallow, reddish brown dry rot.",
+    "source_document": "Fungal diseases of potato and their management.pdf"
+  },
+  {
+    "question": "What environmental conditions favor the spread of Late Blight?",
+    "ground_truth": "Late Blight spreads most rapidly in cool, moist conditions, particularly when temperatures range between 10-22°C with high relative humidity (RH > 80%) and frequent leaf wetness from rain or dew.",
+    "source_document": "Fungal diseases of potato and their management.pdf"
+  },
+  {
+    "question": "What integrated management practices are recommended for controlling Late Blight in potatoes?",
+    "ground_truth": "Recommended practices include reducing primary sources of inoculum, following sound crop rotation, growing late blight resistant varieties, using disease-free seed, high ridging and earthing up, stopping irrigation under overcast conditions, and applying prophylactic fungicide sprays.",
+    "source_document": "Fungal diseases of potato and their management.pdf"
+  },
+  {
+    "question": "How does Early Blight differ in symptoms and epidemiology from Late Blight?",
+    "ground_truth": "Early Blight initially appears on lower and old leaves as small, circular to oval brown spots that enlarge and develop characteristic concentric rings. It is favored by moderate temperatures (17-25°C) and high humidity, with infected tubers forming the primary source of inoculum, unlike Late Blight which affects all plant parts and is more devastating.",
+    "source_document": "Fungal diseases of potato and their management.pdf"
+  },
+  {
+    "question": "What are the primary symptoms of Late Blight on potato plants?",
+    "ground_truth": "Late Blight appears on leaves as pale green, irregular spots that enlarge into large water-soaked lesions. In moist weather, these spots turn necrotic and dark brown or black, often with a purplish tinge. On stems, light brown elongate lesions develop, and tubers show a shallow, reddish brown dry rot.",
+    "source_document": "Fungal_diseases_of_potato.pdf"
+  },
+  {
+    "question": "What environmental conditions favor the spread of Late Blight?",
+    "ground_truth": "Late Blight spreads most rapidly in cool, moist conditions, particularly when temperatures range between 10-22°C and relative humidity exceeds 80%. The pathogen requires 100% humidity for spore germination and infection.",
+    "source_document": "Fungal_diseases_of_potato.pdf"
+  },
+  {
+    "question": "What integrated management practices are recommended for controlling Late Blight in potatoes?",
+    "ground_truth": "Management practices include reducing primary sources of inoculum, following sound crop rotation, growing resistant varieties, using disease-free seed, high ridging, stopping irrigation under overcast conditions, and applying prophylactic fungicide sprays.",
+    "source_document": "Fungal_diseases_of_potato.pdf"
+  },
+  {
+    "question": "How does Early Blight differ in symptoms and epidemiology compared to Late Blight?",
+    "ground_truth": "Early Blight symptoms start on lower leaves as small, circular to oval brown spots that enlarge and develop concentric rings. It is favored by moderate temperatures (17-25°C) and high humidity, with infected tubers forming the primary source of inoculum, unlike Late Blight which is more devastating and affects all plant parts.",
+    "source_document": "Fungal_diseases_of_potato.pdf"
+  },
+  {
+    "question": "What are the major potato-producing districts in Karnataka?",
+    "ground_truth": "The major potato-producing districts in Karnataka are Hassan, Kolar, Belagavi, Chikkamagaluru, and Chikkaballapur.",
+    "source_document": "Good-agricultural-practices-in-Potato-Cultivation-–-A-technical-manual-for-Karnataka.pdf"
+  },
+  {
+    "question": "What is the average productivity of potatoes in Karnataka compared to the national average?",
+    "ground_truth": "The average productivity of potatoes in Karnataka is around 12 to 13 t/ha, which is much below the national average of 22 t/ha.",
+    "source_document": "Good-agricultural-practices-in-Potato-Cultivation-–-A-technical-manual-for-Karnataka.pdf"
+  },
+  {
+    "question": "What are the recommended practices for seed potato preparation to ensure high yields?",
+    "ground_truth": "Recommended practices for seed potato preparation include using certified seeds, pre-germination of seed potatoes, proper sorting and grading, and treating seeds with fungicides like Mancozeb.",
+    "source_document": "Good-agricultural-practices-in-Potato-Cultivation-–-A-technical-manual-for-Karnataka.pdf"
+  },
+  {
+    "question": "How does the introduction of the Himalini variety benefit potato farmers in Karnataka?",
+    "ground_truth": "The Himalini variety is preferred for its good resistance capacity to late blight diseases, making it suitable for the Kharif season.",
+    "source_document": "Good-agricultural-practices-in-Potato-Cultivation-–-A-technical-manual-for-Karnataka.pdf"
+  },
+  {
+    "question": "What are the symptoms of Late Blight in potatoes?",
+    "ground_truth": "Symptoms of Late Blight include brown spots on leaves, grey/black spots on the underside, white fungal growth after rain, and rotting of tubers.",
+    "source_document": "Good-agricultural-practices-in-Potato-Cultivation-–-A-technical-manual-for-Karnataka.pdf"
+  },
+  {
+    "question": "What integrated pest management strategies are suggested for controlling Potato Tuber Moth (PTM)?",
+    "ground_truth": "Integrated pest management strategies for controlling PTM include using pheromone traps, intercropping with hot pepper, and applying neem treatments.",
+    "source_document": "Good-agricultural-practices-in-Potato-Cultivation-–-A-technical-manual-for-Karnataka.pdf"
+  },
+  {
+    "question": "What is the significance of crop rotation in potato cultivation?",
+    "ground_truth": "Crop rotation is significant in potato cultivation as it helps maintain soil fertility, reduces pest and disease pressure, and breaks the reproductive cycles of harmful microorganisms.",
+    "source_document": "Good-agricultural-practices-in-Potato-Cultivation-–-A-technical-manual-for-Karnataka.pdf"
+  },
+  {
+    "question": "What are the recommended irrigation practices for potato cultivation?",
+    "ground_truth": "Recommended irrigation practices include using furrow irrigation, limiting water during vegetative growth, and ensuring adequate moisture during tuber initiation and growth stages.",
+    "source_document": "Good-agricultural-practices-in-Potato-Cultivation-–-A-technical-manual-for-Karnataka.pdf"
+  },
+  {
+    "question": "What are the key factors affecting soil fertility management in potato farming?",
+    "ground_truth": "Key factors affecting soil fertility management include maintaining organic matter, preventing soil erosion, and applying balanced nutrients through compost and manures.",
+    "source_document": "Good-agricultural-practices-in-Potato-Cultivation-–-A-technical-manual-for-Karnataka.pdf"
+  },
+  {
+    "question": "What are the economic implications of adopting improved agricultural practices in potato cultivation?",
+    "ground_truth": "Adopting improved agricultural practices can lead to higher yields, increased net profits, and better market prices for potatoes, despite higher initial costs.",
+    "source_document": "Good-agricultural-practices-in-Potato-Cultivation-–-A-technical-manual-for-Karnataka.pdf"
+  },
+  {
+    "question": "What are the primary symptoms of Late Blight in potato plants?",
+    "ground_truth": "Late Blight causes water-soaked spots on potato plants, which can lead to the premature death of the plant, reduced yield, and rotting of infected tubers.",
+    "source_document": "Important fungal diseases of potato and their.pdf"
+  },
+  {
+    "question": "What management strategies are recommended for controlling Early Blight in potatoes?",
+    "ground_truth": "Management of Early Blight includes timely spraying of fungicides, as crop rotation is not effective in many regions.",
+    "source_document": "Important fungal diseases of potato and their.pdf"
+  },
+  {
+    "question": "How does the pathogen causing Wart disease affect potato plants?",
+    "ground_truth": "Wart disease, caused by Synchytrium endobioticum, leads to rough, warty outgrowths on tubers and stolons, and can severely threaten potato production.",
+    "source_document": "Important fungal diseases of potato and their.pdf"
+  },
+  {
+    "question": "What environmental conditions favor the spread of Pink Rot in potatoes?",
+    "ground_truth": "Pink Rot is favored by excessive irrigation in wet and warm summer conditions, which enhances disease development.",
+    "source_document": "Important fungal diseases of potato and their.pdf"
+  },
+  {
+    "question": "What are the primary factors contributing to the increased prevalence of potato diseases due to climate change?",
+    "ground_truth": "Climate change affects the life cycles of pathogens and insects, influencing their developmental stages, distribution, and migration patterns, which can lead to the emergence of new thermophilic species.",
+    "source_document": "Important Threats in Potato Production and and Integrated PathogenPest Management.pdf"
+  },
+  {
+    "question": "What are the symptoms of stem blight caused by Phytophthora infestans on potato plants?",
+    "ground_truth": "Stem lesions appear as oily, brown areas that later turn black. If lesions surround the entire stem, the plant can break at that point, and sporulation is common on stems under conditions of high relative humidity.",
+    "source_document": "Important Threats in Potato Production and and Integrated PathogenPest Management.pdf"
+  },
+  {
+    "question": "How can early blight in potatoes be managed according to the document?",
+    "ground_truth": "Management of early blight involves controlling alternating wet/dry periods that favor spore formation, using resistant cultivars, and applying fungicides as necessary to protect against the disease.",
+    "source_document": "Important Threats in Potato Production and and Integrated PathogenPest Management.pdf"
+  },
+  {
+    "question": "What role does crop rotation play in the management of potato diseases?",
+    "ground_truth": "Crop rotation helps enhance soil fertility, maintain soil structure, increase organic matter, conserve soil moisture, and reduce certain pathogen and pest problems, thereby improving overall crop health.",
+    "source_document": "Important Threats in Potato Production and and Integrated PathogenPest Management.pdf"
+  },
+  {
+    "question": "What are the initial symptoms of Early Blight on potato leaves?",
+    "ground_truth": "The first symptoms appear on older leaves consisting of small, irregular, dark brown to black, dead spots that range from a pinpoint to 1/2 inch in diameter in size.",
+    "source_document": "INTEGRATED DISEASE MANAGEMENT OF EARLY BLIGHT (ALTERNARIA SOLANI).pdf"
+  },
+  {
+    "question": "What environmental conditions favor the spread of Early Blight caused by Alternaria solani?",
+    "ground_truth": "Early Blight spreads most rapidly in warm, humid weather with heavy dews or rain, and is more severe when plants are stressed by poor nutrition or drought.",
+    "source_document": "INTEGRATED DISEASE MANAGEMENT OF EARLY BLIGHT (ALTERNARIA SOLANI).pdf"
+  },
+  {
+    "question": "What integrated management strategies are recommended for controlling Early Blight in potatoes?",
+    "ground_truth": "Integrated Disease Management (IDM) includes cultural practices such as crop rotation with non-host crops, using certified pathogen-free seed, and applying foliar fungicides.",
+    "source_document": "INTEGRATED DISEASE MANAGEMENT OF EARLY BLIGHT (ALTERNARIA SOLANI).pdf"
+  },
+  {
+    "question": "How does the pathogen Alternaria solani survive and spread in the environment?",
+    "ground_truth": "Alternaria solani survives in infected leaf or stem tissues on or in the soil, producing spores on infested plant debris, which are easily carried by air currents, windblown soil, and splashing rain.",
+    "source_document": "INTEGRATED DISEASE MANAGEMENT OF EARLY BLIGHT (ALTERNARIA SOLANI).pdf"
+  },
+  {
+    "question": "What are the primary symptoms of Late Blight on potato plants?",
+    "ground_truth": "The first symptoms of late blight in the field are small, light-to-dark green, and circular-to irregularly-shaped, water-soaked lesions, usually first appearing on the lower leaves where the microclimate is more humid.",
+    "source_document": "Integrated_Potato_Solanum_Tuberosum_L_La.pdf"
+  },
+  {
+    "question": "What management strategies are recommended for controlling Late Blight in potatoes?",
+    "ground_truth": "Management strategies for Late Blight include the use of biological control agents, resistant varieties, intercropping, certified disease-free seed, selective fungicides, and cultural practices such as destruction of cull piles and volunteer potato plants, and timely irrigation.",
+    "source_document": "Integrated_Potato_Solanum_Tuberosum_L_La.pdf"
+  },
+  {
+    "question": "How does the pathogen Phytophthora infestans reproduce sexually, and what is required for this process?",
+    "ground_truth": "Phytophthora infestans requires two mating types, A1 and A2, to come into contact to produce a sexual spore known as an oospore.",
+    "source_document": "Integrated_Potato_Solanum_Tuberosum_L_La.pdf"
+  },
+  {
+    "question": "What economic impact does Late Blight have on potato production in Ethiopia?",
+    "ground_truth": "In Ethiopia, Late Blight causes yield losses ranging from 31-100% depending on the variety used, making it a major limitation to potato production.",
+    "source_document": "Integrated_Potato_Solanum_Tuberosum_L_La.pdf"
+  },
+  {
+    "question": "What is the primary vector responsible for the transmission of Potato Leaf Roll Virus (PLRV)?",
+    "ground_truth": "The primary vector responsible for the transmission of Potato Leaf Roll Virus (PLRV) is the aphid Myzus persicae.",
+    "source_document": "Leaf roll virus.pdf"
+  },
+  {
+    "question": "What role do tubers play in the lifecycle of PLRV according to the study?",
+    "ground_truth": "Tuber acts as a reservoir during the off-season and can harbor latent viruses that subsequently reduce emergence, plant vigor, and yield.",
+    "source_document": "Leaf roll virus.pdf"
+  },
+  {
+    "question": "What symptoms are associated with Potato Leaf Roll Virus infection in potato plants?",
+    "ground_truth": "Symptoms associated with Potato Leaf Roll Virus infection include typical leaf roll symptoms, chlorosis, and stunting of the plants.",
+    "source_document": "Leaf roll virus.pdf"
+  },
+  {
+    "question": "What is the recommended strategy for managing PLRV in potato cultivation?",
+    "ground_truth": "The most effective approach to manage PLRV is the planting of healthy and virus-free seed potatoes, along with diagnosing and managing aphids to prevent the spread of the virus.",
+    "source_document": "Leaf roll virus.pdf"
+  },
+  {
+    "question": "What are the major fungal diseases that affect potato crops?",
+    "ground_truth": "Major fungal diseases that affect potato crops include late blight, early blight, black scurf, dry rots, wart, powdery scab, and charcoal rots.",
+    "source_document": "Major Fungal and Bacterial Diseases of Potato.pdf"
+  },
+  {
+    "question": "How does late blight impact global potato production?",
+    "ground_truth": "Late blight cuts global potato production by around 15% and incurs an overall annual cost of approximately $3.25 billion in developing countries.",
+    "source_document": "Major Fungal and Bacterial Diseases of Potato.pdf"
+  },
+  {
+    "question": "What are the symptoms of tuber diseases like common scab and black scurf?",
+    "ground_truth": "Tuber diseases such as common scab and black scurf may not destroy the crop but can greatly reduce the quality and marketability of the potatoes.",
+    "source_document": "Major Fungal and Bacterial Diseases of Potato.pdf"
+  },
+  {
+    "question": "What factors can influence the prevalence of potato diseases?",
+    "ground_truth": "The prevalence of potato diseases can be influenced by environmental changes, such as global warming, and the introduction of resistant varieties and improved cultural practices.",
+    "source_document": "Major Fungal and Bacterial Diseases of Potato.pdf"
+  },
+  {
+    "question": "What are the primary soilborne diseases affecting potato production mentioned in the document?",
+    "ground_truth": "The primary soilborne diseases affecting potato production mentioned are black scurf, caused by Rhizoctonia solani, and common scab, caused by Streptomyces scabies.",
+    "source_document": "Management Effects of Disease-Suppressive Rotation Crops.pdf"
+  },
+  {
+    "question": "Which rotation crop management practice was found to be most effective in reducing black scurf severity and increasing potato yield?",
+    "ground_truth": "The combination of mustard blend managed as a green manure was found to be the most effective, reducing black scurf severity by 54% and increasing yield by 25% compared to a soybean cover crop.",
+    "source_document": "Management Effects of Disease-Suppressive Rotation Crops.pdf"
+  },
+  {
+    "question": "What economic benefits were observed from using mustard or rapeseed as harvested crops with incorporation?",
+    "ground_truth": "Using mustard or rapeseed as harvested crops with incorporation provided the best economic return, increasing net income by more than $860/ha relative to the standard barley rotation.",
+    "source_document": "Management Effects of Disease-Suppressive Rotation Crops.pdf"
+  },
+  {
+    "question": "How did the management practice of using green manures compare to cover crops in terms of disease reduction and yield increase?",
+    "ground_truth": "Management as green manures resulted in significant reductions in both black scurf (26 to 41%) and common scab (11%) relative to management as cover crops, and also led to greater total and marketable tuber yields.",
+    "source_document": "Management Effects of Disease-Suppressive Rotation Crops.pdf"
+  },
+  {
+    "question": "What are the two phases of black scurf disease caused by Rhizoctonia solani?",
+    "ground_truth": "The two phases of black scurf disease are stem canker and black scurf.",
+    "source_document": "Management of Black Scurf Disease Caused by Rhizoctonia Solani Kuhn through Research and Farmers Participatory Trials in Major Potato Growing Regions of Northern Karnataka.pdf"
+  },
+  {
+    "question": "What was the most effective treatment for managing black scurf disease in terms of disease incidence and yield?",
+    "ground_truth": "The most effective treatment was Penflufen 240 FS at 0.083%, which resulted in the least mean disease incidence of 10.52% and the highest mean yield of 12.16 t/ha.",
+    "source_document": "Management of Black Scurf Disease Caused by Rhizoctonia Solani Kuhn through Research and Farmers Participatory Trials in Major Potato Growing Regions of Northern Karnataka.pdf"
+  },
+  {
+    "question": "What are the economic benefits of using Penflufen 240 FS for managing black scurf disease?",
+    "ground_truth": "The treatment involving Penflufen 240 FS at 0.083% resulted in the highest incremental cost benefit ratio of 95.62 compared to other treatments under study.",
+    "source_document": "Management of Black Scurf Disease Caused by Rhizoctonia Solani Kuhn through Research and Farmers Participatory Trials in Major Potato Growing Regions of Northern Karnataka.pdf"
+  },
+  {
+    "question": "How does black scurf disease affect potato tubers and what are its visible symptoms?",
+    "ground_truth": "Black scurf disease results in the formation of black, irregular lumpy encrustations on the surface of potato tubers, which reduces their quality and market value.",
+    "source_document": "Management of Black Scurf Disease Caused by Rhizoctonia Solani Kuhn through Research and Farmers Participatory Trials in Major Potato Growing Regions of Northern Karnataka.pdf"
+  },
+  {
+    "question": "What are the primary symptoms of Late Blight on potato plants?",
+    "ground_truth": "The disease appears as small, light to dark green, circular to irregular-shaped water-soaked lesions, usually at the tips or edges of lower leaves and stems. Under favorable conditions, these lesions enlarge quickly into dark brown necrotic lesions, resulting in the drying of plants.",
+    "source_document": "Management of late blight (Phytophthora infestans) of potato (Solanum tuberosum) through efficient spray schedule of fungicides in the north-eastern Himalayan region of India.pdf"
+  },
+  {
+    "question": "What was the most effective fungicide treatment schedule identified in the study for managing Late Blight?",
+    "ground_truth": "The best performing treatment involved one spraying of Mancozeb 75% @0.25% at 35 days after sowing, followed by Cymoxanil 8% + Mancozeb 64% @0.25% at 42 DAS, another spraying of Mancozeb 75% @0.25% at 49 DAS, and a final spraying of Cymoxanil 8% + Mancozeb 64% @0.25% at 56 DAS.",
+    "source_document": "Management of late blight (Phytophthora infestans) of potato (Solanum tuberosum) through efficient spray schedule of fungicides in the north-eastern Himalayan region of India.pdf"
+  },
+  {
+    "question": "How did the use of fungicides impact tuber yield in the study?",
+    "ground_truth": "All treatments significantly reduced late blight disease incidence and severity, resulting in maximum tuber yield. The highest tuber yield was obtained from the treatment T7, which recorded yields of 21.27 and 21.68 t/ha during the years 2020–21 and 2021–22, respectively.",
+    "source_document": "Management of late blight (Phytophthora infestans) of potato (Solanum tuberosum) through efficient spray schedule of fungicides in the north-eastern Himalayan region of India.pdf"
+  },
+  {
+    "question": "What environmental conditions favor the spread of Late Blight disease in potatoes?",
+    "ground_truth": "Late Blight disease is favored by cool (15–18°C) and moist weather conditions, with relative humidity greater than or equal to 80%.",
+    "source_document": "Management of late blight (Phytophthora infestans) of potato (Solanum tuberosum) through efficient spray schedule of fungicides in the north-eastern Himalayan region of India.pdf"
+  },
+  {
+    "question": "What are the symptoms of late blight disease on potato plants?",
+    "ground_truth": "The disease appears as small, light to dark green, circular to irregular-shaped water-soaked lesions, usually at the tips or edges of lower leaves and stems. Under favorable conditions, these lesions enlarge quickly into dark brown necrotic lesions, resulting in the drying of plants, and whitish cottony growth may be observed on the abaxial leaf surface.",
+    "source_document": "Management of late blight (Phytophthora infestans) of potato.pdf"
+  },
+  {
+    "question": "What was the most effective treatment schedule for managing late blight in the study?",
+    "ground_truth": "The most effective treatment schedule was T7, which included one spraying of Mancozeb 75% at 35 days after sowing, followed by Cymoxanil 8% + Mancozeb 64% at 42 DAS, another spraying of Mancozeb 75% at 49 DAS, and a final spraying of Cymoxanil 8% + Mancozeb 64% at 56 DAS.",
+    "source_document": "Management of late blight (Phytophthora infestans) of potato.pdf"
+  },
+  {
+    "question": "How did the use of fungicides impact tuber yield in the study?",
+    "ground_truth": "All treatments significantly reduced late blight disease incidence and severity, resulting in maximum tuber yield. The highest tuber yield was obtained from T7, with yields of 21.27 and 21.68 t/ha during the years 2020–21 and 2021–22, respectively.",
+    "source_document": "Management of late blight (Phytophthora infestans) of potato.pdf"
+  },
+  {
+    "question": "What climatic conditions favor the spread of late blight disease in potatoes?",
+    "ground_truth": "Late blight disease spreads rapidly under cool (15–18°C) and moist weather conditions, with relative humidity greater than or equal to 80%.",
+    "source_document": "Management of late blight (Phytophthora infestans) of potato.pdf"
+  },
+  {
+    "question": "What is the primary bacterial pathogen responsible for potato brown rot disease?",
+    "ground_truth": "The primary bacterial pathogen responsible for potato brown rot disease is Ralstonia solanacearum (R. solanacearum).",
+    "source_document": "Management of potato brown rot disease.pdf"
+  },
+  {
+    "question": "What were the observed effects of CuO-NPs and MgO-NPs on the incidence of brown rot disease in potato plants?",
+    "ground_truth": "CuO-NPs and MgO-NPs significantly reduced the incidence of brown rot disease to 71.2% and 69.4%, respectively, compared to lower reductions observed with bulk CuSO4 and MgSO4 treatments.",
+    "source_document": "Management of potato brown rot disease.pdf"
+  },
+  {
+    "question": "How do CuO-NPs and MgO-NPs affect the yield and chlorophyll content of potato plants?",
+    "ground_truth": "CuO-NPs and MgO-NPs significantly increased the yield and total chlorophyll content of potato plants compared with infected control plants.",
+    "source_document": "Management of potato brown rot disease.pdf"
+  },
+  {
+    "question": "What methods were used to characterize the synthesized CuO and MgO nanoparticles?",
+    "ground_truth": "The synthesized CuO and MgO nanoparticles were characterized using UV-visible spectroscopy, transmission electron microscopy (TEM), zeta potential analysis, X-ray diffraction (XRD), and Fourier transform infrared (FTIR) spectroscopy.",
+    "source_document": "Management of potato brown rot disease.pdf"
+  },
+  {
+    "question": "What are the primary management strategies for controlling Late Blight in potatoes?",
+    "ground_truth": "Management strategies for Late Blight include preventing the buildup of overwintering inoculum, eliminating alternate hosts, and rigorous application of protectant fungicides. Effective fungicide application depends on timing, rate, interval, and coverage.",
+    "source_document": "Managing fungal diseases of potato.pdf"
+  },
+  {
+    "question": "What factors have contributed to the increased severity of Silver Scurf in recent years?",
+    "ground_truth": "The increased severity of Silver Scurf is due to resistance to thiabendazole fungicides, improved storage conditions with higher humidities, lowered defect tolerances, and increased awareness of the disease.",
+    "source_document": "Managing fungal diseases of potato.pdf"
+  },
+  {
+    "question": "How does Pink Rot differ from Leak in terms of infection and symptoms?",
+    "ground_truth": "Pink Rot is caused by Phytophthora erythroseptica and can infect tubers in the field prior to harvest, while Leak is caused by Pythium ultimum and occurs in wounds during harvest. Both cause rapid watery breakdown of tubers in storage.",
+    "source_document": "Managing fungal diseases of potato.pdf"
+  },
+  {
+    "question": "What is the significance of crop rotation in managing Verticillium wilt in potatoes?",
+    "ground_truth": "Crop rotation of at least 3 years between potato crops is recommended to manage Verticillium wilt, as it helps reduce soil inoculum. However, rotational crops like cereals and weeds can support the fungus, making this strategy less effective.",
+    "source_document": "Managing fungal diseases of potato.pdf"
+  },
+  {
+    "question": "What is the primary pathogen responsible for common scab in potatoes, and how does it affect the tuber surface?",
+    "ground_truth": "Common scab is caused by certain streptomycetes, primarily Streptomyces scabiei, which produce a toxin called thaxtomin that kills patches of periderm cells, resulting in raised or pitted scabs on the tuber surface.",
+    "source_document": "Nutritional Interactions Influencing Diseases of Potato.pdf"
+  },
+  {
+    "question": "How does soil pH influence the severity of common scab in potatoes?",
+    "ground_truth": "The severity of common scab increases in a sigmoidal pattern over the pH range of 5 to 7, with a midpoint around 5.7 to 6.2, and maintaining or lowering soil pH to less than 5.2 to 5.5 can usually suppress common scab.",
+    "source_document": "Nutritional Interactions Influencing Diseases of Potato.pdf"
+  },
+  {
+    "question": "What are the management strategies for controlling late blight in potato cultivation?",
+    "ground_truth": "Management strategies for late blight include eliminating inoculum sources, applying chemical controls, and understanding the effects of plant nutrition on lesion development and susceptibility.",
+    "source_document": "Nutritional Interactions Influencing Diseases of Potato.pdf"
+  },
+  {
+    "question": "What role does calcium play in managing bacterial soft rot in potatoes?",
+    "ground_truth": "Calcium fertilization can suppress bacterial soft rot because cell walls with higher calcium content are more resistant to enzymatic degradation by pectate lyase and polygalacturonase, which are produced by the bacteria.",
+    "source_document": "Nutritional Interactions Influencing Diseases of Potato.pdf"
+  },
+  {
+    "question": "What are the primary symptoms of Late Blight in potatoes?",
+    "ground_truth": "Late Blight causes lesions on leaves and stems that appear as small flecks within three to five days after infection, initially water-soaked but becoming brown or black. Under high humidity, sporulation is visible as a delicate, white mold surrounding the lesion.",
+    "source_document": "Organic Production and IPM Guide for Potatoes-book.pdf"
+  },
+  {
+    "question": "How can Late Blight be effectively managed in potato crops?",
+    "ground_truth": "Management of Late Blight includes scouting fields weekly for symptoms, applying approved copper fungicides before infection occurs, and ensuring proper vine-killing practices to reduce exposure of tubers to spores.",
+    "source_document": "Organic Production and IPM Guide for Potatoes-book.pdf"
+  },
+  {
+    "question": "What environmental conditions favor the development of Pink Rot in potatoes?",
+    "ground_truth": "Pink Rot is favored by cool weather and excessive soil moisture, with infection occurring early in the season and symptoms appearing in late August.",
+    "source_document": "Organic Production and IPM Guide for Potatoes-book.pdf"
+  },
+  {
+    "question": "What is the recommended crop rotation strategy to manage root-knot nematodes?",
+    "ground_truth": "The recommended strategy is to allow three years between crops of potatoes and other solanaceous crops, rotating with non-host crops such as grains to reduce nematode populations.",
+    "source_document": "Organic Production and IPM Guide for Potatoes-book.pdf"
+  },
+  {
+    "question": "What are the visible symptoms of Fusarium Dry Rot in potatoes?",
+    "ground_truth": "Fusarium Dry Rot causes sunken and shriveled areas on the surface of tubers, which may extend to the center and contain a fungal growth that is pink, white, or yellow.",
+    "source_document": "Organic Production and IPM Guide for Potatoes-book.pdf"
+  },
+  {
+    "question": "What practices can help reduce the incidence of Common Scab in potatoes?",
+    "ground_truth": "To reduce Common Scab, maintain soil pH below 5.2, avoid planting in fields with a history of scab, and rotate with non-host crops like alfalfa and rye.",
+    "source_document": "Organic Production and IPM Guide for Potatoes-book.pdf"
+  },
+  {
+    "question": "What is the impact of Colorado Potato Beetle on potato crops?",
+    "ground_truth": "The Colorado Potato Beetle can devastate yields, with reductions up to 90% if left uncontrolled, making it one of the most serious pests of potatoes.",
+    "source_document": "Organic Production and IPM Guide for Potatoes-book.pdf"
+  },
+  {
+    "question": "How does the use of cover crops benefit potato production?",
+    "ground_truth": "Cover crops help maintain soil organic matter, improve soil tilth, prevent erosion, assist in nutrient management, and may help control insects, diseases, and nematodes.",
+    "source_document": "Organic Production and IPM Guide for Potatoes-book.pdf"
+  },
+  {
+    "question": "What are the key characteristics of Bacterial Soft Rot in potatoes?",
+    "ground_truth": "Bacterial Soft Rot causes soft rot of infected tubers, resulting in seed piece decay and reduced yield and quality at harvest, with symptoms including tan or water-soaked areas on the tuber surface.",
+    "source_document": "Organic Production and IPM Guide for Potatoes-book.pdf"
+  },
+  {
+    "question": "What is the role of Integrated Pest Management (IPM) in organic potato production?",
+    "ground_truth": "IPM emphasizes cultural, biological, and mechanical practices to minimize pest outbreaks, including identifying pest populations, keeping accurate records, and using resistant varieties.",
+    "source_document": "Organic Production and IPM Guide for Potatoes-book.pdf"
+  },
+  {
+    "question": "What are the primary causes of post-harvest losses in potatoes?",
+    "ground_truth": "Post-harvest losses in potatoes are caused by both qualitative and quantitative factors. Qualitative losses may arise from physiological reasons, such as exposure to extreme temperatures and rough handling, or pathological reasons due to the attack of pathogens like fungi and bacteria. Quantitative losses occur at different stages of handling and marketing.",
+    "source_document": "Post-Harvest Profile of Potato.pdf"
+  },
+  {
+    "question": "What are the recommended storage conditions for seed potatoes?",
+    "ground_truth": "Seed potatoes should be stored in cold storage maintained at 2-4°C and at about 95% relative humidity to prevent sprouting and maintain quality.",
+    "source_document": "Post-Harvest Profile of Potato.pdf"
+  },
+  {
+    "question": "How does the potato processing industry in India compare to that in other countries?",
+    "ground_truth": "In India, processing of potatoes constitutes less than 2% of the total annual production, compared to 60% in the USA, 47% in the Netherlands, and 22% in China, indicating significant potential for growth in the Indian potato processing sector.",
+    "source_document": "Post-Harvest Profile of Potato.pdf"
+  },
+  {
+    "question": "What are the nutritional components of a potato tuber?",
+    "ground_truth": "A potato tuber contains approximately 80% water and 20% dry matter, which consists of 14% starch, 2% sugar, 2% protein, 1% minerals, 0.6% fiber, and 0.1% fat, along with vitamins B and C in adequate amounts.",
+    "source_document": "Post-Harvest Profile of Potato.pdf"
+  },
+  {
+    "question": "What is the primary cause of Verticillium Wilt in potatoes?",
+    "ground_truth": "Verticillium Wilt is caused by the fungus Verticillium dahliae, which survives in soil or in infected plant parts.",
+    "source_document": "Potato (Solanum tuberosum)-Verticillium Wilt (Potato Early Dying).pdf"
+  },
+  {
+    "question": "What are the initial symptoms of Verticillium Wilt in potato plants?",
+    "ground_truth": "Early symptoms are characterized by unilateral leaf yellowing, followed by vines that prematurely yellow and die.",
+    "source_document": "Potato (Solanum tuberosum)-Verticillium Wilt (Potato Early Dying).pdf"
+  },
+  {
+    "question": "What cultural control methods can be employed to manage Verticillium Wilt?",
+    "ground_truth": "Cultural control methods include rotating with weed- and volunteer-free alfalfa or cereals, using optimum rates of nitrogen fertilizer, managing irrigation early in the growing season, using resistant varieties, and applying green manure treatments of sudangrass or corn.",
+    "source_document": "Potato (Solanum tuberosum)-Verticillium Wilt (Potato Early Dying).pdf"
+  },
+  {
+    "question": "What is the recommended threshold number of Verticillium propagules in soil for 'Russet Burbank' potatoes to avoid significant yield loss?",
+    "ground_truth": "The threshold number is 10 CFU/gram of soil dry weight for 'Russet Burbank' potatoes.",
+    "source_document": "Potato (Solanum tuberosum)-Verticillium Wilt (Potato Early Dying).pdf"
+  },
+  {
+    "question": "What are the primary symptoms of Potato Common Scab on tubers?",
+    "ground_truth": "Symptoms of Potato Common Scab include scab-like surface, raised, and/or pitted lesions on the tuber, which can cause a substantial reduction in marketable yield for potato growers.",
+    "source_document": "Potato Common Scab  a Review of the Causal Pathogens, Management Practices, Varietal Resistance Screening Methods, and Host Resistance.pdf"
+  },
+  {
+    "question": "What management practices are recommended to control Potato Common Scab?",
+    "ground_truth": "Management practices to control Potato Common Scab include crop rotation, using tolerant varieties, monitoring soil pH, avoiding low soil moisture at tuber initiation, and applying soil- and/or seed-applied pesticides.",
+    "source_document": "Potato Common Scab  a Review of the Causal Pathogens, Management Practices, Varietal Resistance Screening Methods, and Host Resistance.pdf"
+  },
+  {
+    "question": "What is the role of thaxtomin in the pathogenicity of Streptomyces species causing common scab?",
+    "ground_truth": "Thaxtomin is a phytotoxin produced by pathogenic Streptomyces species that elicits scab symptoms and is the primary pathogenicity determinant, inhibiting cellulose biosynthesis and inducing plant cell hypertrophy.",
+    "source_document": "Potato Common Scab  a Review of the Causal Pathogens, Management Practices, Varietal Resistance Screening Methods, and Host Resistance.pdf"
+  },
+  {
+    "question": "How does soil pH affect the severity of Potato Common Scab?",
+    "ground_truth": "The severity of Potato Common Scab increases as the soil pH rises from 5.2 to 8.0, with the most severe symptoms occurring in soils with a pH range of 5.5 to 7.5.",
+    "source_document": "Potato Common Scab  a Review of the Causal Pathogens, Management Practices, Varietal Resistance Screening Methods, and Host Resistance.pdf"
+  },
+  {
+    "question": "What are the primary symptoms of Wart disease in potatoes?",
+    "ground_truth": "Wart disease is characterized by 'cauliflower-like' warty growths on tubers, stolons, and stem bases, but not roots. Under wet conditions, it may appear as a greenish-yellow crust on the stems and leaves at or near the soil level.",
+    "source_document": "Potato Diseases.pdf"
+  },
+  {
+    "question": "What factors contribute to the development of Soft Rot in stored potatoes?",
+    "ground_truth": "Factors contributing to Soft Rot development include excessive moisture, high temperature, excess nitrogen, tuber injuries, and poor ventilation during storage.",
+    "source_document": "Potato Diseases.pdf"
+  },
+  {
+    "question": "How can Bacterial Wilt or Brown Rot be controlled in potato cultivation?",
+    "ground_truth": "Control of Bacterial Wilt involves using disease-free seed tubers from disease-free areas, avoiding splitting of tubers at planting, and applying stable bleaching powder mixed with fertilizer while planting to reduce wilt incidence.",
+    "source_document": "Potato Diseases.pdf"
+  },
+  {
+    "question": "What are the visible symptoms of Black Scurf and Stem Canker in potatoes?",
+    "ground_truth": "Black Scurf and Stem Canker symptoms include dark brown to black irregular lumps on tubers, skin cracks, crater-like depressions, pitting, stem-end necrosis, and upward rolling of leaves with pinkish or purplish margins.",
+    "source_document": "Potato Diseases.pdf"
+  },
+  {
+    "question": "What are the primary symptoms of potato dry rot disease caused by Fusarium species?",
+    "ground_truth": "Symptoms of dry rot include sunken and wrinkled brown to black tissue patches on tubers, which have less dry matter and shriveled flesh.",
+    "source_document": "Potato dry rot disease current status, pathogenomics.pdf"
+  },
+  {
+    "question": "What factors contribute to the spread and severity of potato dry rot during storage?",
+    "ground_truth": "The spread and severity of potato dry rot during storage are influenced by the presence of wounds on tubers, storage temperature, and humidity levels, as well as the inoculum level in the soil.",
+    "source_document": "Potato dry rot disease current status, pathogenomics.pdf"
+  },
+  {
+    "question": "What management strategies are recommended for controlling Fusarium dry rot in potatoes?",
+    "ground_truth": "Management strategies for Fusarium dry rot include using disease-free seed tubers, optimizing storage conditions, applying fungicides like thiabendazole, and employing biological control agents such as Pseudomonas and Trichoderma species.",
+    "source_document": "Potato dry rot disease current status, pathogenomics.pdf"
+  },
+  {
+    "question": "How do mycotoxins produced by Fusarium species affect consumer health?",
+    "ground_truth": "Mycotoxins produced by Fusarium species, such as sambutoxin and trichothecenes, can pose health risks to consumers, including toxicity in plants and mycotoxicosis in animals and humans.",
+    "source_document": "Potato dry rot disease current status, pathogenomics.pdf"
+  },
+  {
+    "question": "What are the tell-tale signs of Late Blight on potato plants?",
+    "ground_truth": "Tell-tale signs of Late Blight include large, irregular brown spots on leaves, weakened stems, and brown patches of dry rot around the edges of tubers.",
+    "source_document": "Potato pest and disease management.pdf"
+  },
+  {
+    "question": "What cultural practices can help control bacterial wilt in potatoes?",
+    "ground_truth": "Cultural practices to control bacterial wilt include planting bacterial wilt-free seed, crop rotation with non-potato crops, uprooting wilting plants, cleaning tools before and after use, and removing potato volunteers.",
+    "source_document": "Potato pest and disease management.pdf"
+  },
+  {
+    "question": "How does soft rot (blackleg) affect potato tubers, and what are its symptoms?",
+    "ground_truth": "Soft rot (blackleg) is caused by Pectobacterium atrosepticum, leading to infected tubers decaying rapidly, resulting in mushy, slimy, and water-soaked tissue, with black lesions at the base of the stem.",
+    "source_document": "Potato pest and disease management.pdf"
+  },
+  {
+    "question": "What integrated approach is recommended for controlling viral diseases in potatoes?",
+    "ground_truth": "An integrated approach for controlling viral diseases includes using clean/certified seed, controlling insect vectors, planting less susceptible varieties, and uprooting non-potato plants that can host viral disease vectors.",
+    "source_document": "Potato pest and disease management.pdf"
+  },
+  {
+    "question": "What are the primary biotic constraints affecting potato production in Pakistan?",
+    "ground_truth": "The primary biotic constraints affecting potato production in Pakistan include diseases caused by fungi (such as late blight and early blight), bacteria (like bacterial wilt and common scab), viruses (including potato leaf roll virus and potato virus Y), and nematodes.",
+    "source_document": "POTATO PRODUCTION IN PAKISTAN CHALLENGES AND PROSPECTIVE.pdf"
+  },
+  {
+    "question": "How does temperature affect the occurrence of late blight in potato crops?",
+    "ground_truth": "Late blight occurs in moist conditions and low temperatures (11-25°C), making it common in hilly areas of Pakistan characterized by low temperatures and heavy rainfall.",
+    "source_document": "POTATO PRODUCTION IN PAKISTAN CHALLENGES AND PROSPECTIVE.pdf"
+  },
+  {
+    "question": "What management strategies can be employed to cope with abiotic stresses in potato cultivation?",
+    "ground_truth": "Management strategies for abiotic stresses in potato cultivation include cultivating late and early maturing varieties in cooler and hotter areas respectively, using irrigation water from non-polluted sources, and developing drought, salinity, and heat-resistant cultivars through breeding.",
+    "source_document": "POTATO PRODUCTION IN PAKISTAN CHALLENGES AND PROSPECTIVE.pdf"
+  },
+  {
+    "question": "What is the estimated range of yield losses in potato production due to various diseases and weeds in Pakistan?",
+    "ground_truth": "The estimated range of yield losses in potato production due to various diseases and weeds in Pakistan is between 30% and 70%, depending on the growing seasons, climatic conditions, and disease management practices.",
+    "source_document": "POTATO PRODUCTION IN PAKISTAN CHALLENGES AND PROSPECTIVE.pdf"
+  },
+  {
+    "question": "What are the two main groups of soil-borne diseases affecting potatoes based on symptoms?",
+    "ground_truth": "Soil-borne diseases affecting potato crop can be divided into two groups depending on symptoms: symptoms damaging tubers and those damaging other parts of the plant.",
+    "source_document": "Potato soil-borne diseases. A review.pdf"
+  },
+  {
+    "question": "What environmental conditions favor the development of soil-borne potato diseases?",
+    "ground_truth": "Favorable conditions for potato diseases development are frequently the same as the conditions needed for potato growth: temperature between 10°C and 25°C, high humidity, medium pH, etc.",
+    "source_document": "Potato soil-borne diseases. A review.pdf"
+  },
+  {
+    "question": "How can crop rotation help in managing soil-borne potato diseases?",
+    "ground_truth": "Crop rotation, especially with non-host plants, can help sanitize the soil and reduce the incidence of soil-borne diseases by breaking the life cycle of pathogens.",
+    "source_document": "Potato soil-borne diseases. A review.pdf"
+  },
+  {
+    "question": "What are the visible symptoms of black scurf on potato tubers?",
+    "ground_truth": "Black scurf symptoms appear as dark, rough patches on the surface of potato tubers caused by the pathogen Rhizoctonia solani.",
+    "source_document": "Potato soil-borne diseases. A review.pdf"
+  },
+  {
+    "question": "What role does soil moisture play in the development of potato diseases?",
+    "ground_truth": "High soil moisture influences disease development and the opening of lenticels, which are entry points for soil-borne pathogens into the tuber.",
+    "source_document": "Potato soil-borne diseases. A review.pdf"
+  },
+  {
+    "question": "What are some effective cultural practices to control potato diseases?",
+    "ground_truth": "Effective cultural practices include crop rotation, appropriate fertilization, maintaining good soil moisture levels, and timely destruction of haulms before harvest.",
+    "source_document": "Potato soil-borne diseases. A review.pdf"
+  },
+  {
+    "question": "What is the significance of using certified seed potatoes in disease management?",
+    "ground_truth": "Using certified seed potatoes is a major way to control or restrict the movement of pathogens of potato crops, as they are guaranteed to be free from certain diseases.",
+    "source_document": "Potato soil-borne diseases. A review.pdf"
+  },
+  {
+    "question": "How does soil pH affect the severity of potato diseases?",
+    "ground_truth": "Soil pH influences disease development by affecting nutrient availability; extreme pH values can suppress several plant diseases.",
+    "source_document": "Potato soil-borne diseases. A review.pdf"
+  },
+  {
+    "question": "What is the impact of high humidity during the storage of potato tubers?",
+    "ground_truth": "High relative humidity during storage of tubers has always a negative impact, increasing the risk of diseases such as soft rot and black leg.",
+    "source_document": "Potato soil-borne diseases. A review.pdf"
+  },
+  {
+    "question": "What are the main pathogens responsible for causing dry rot in potatoes?",
+    "ground_truth": "The main pathogens responsible for causing dry rot in potatoes include Fusarium spp., particularly Fusarium sambucinum and Fusarium solani.",
+    "source_document": "Potato soil-borne diseases. A review.pdf"
+  },
+  {
+    "question": "What are the primary symptoms of Potato Virus Y (PVY) on potato plants?",
+    "ground_truth": "Symptoms of PVY infection may include mild mottle or slight distortion of leaves, a recognizable 'mosaic' pattern, and in severe cases, plant death. Tuber symptoms can manifest as raised or sunken areas on the tuber surface, particularly in smooth-skin varieties.",
+    "source_document": "Potato Virus Y.pdf"
+  },
+  {
+    "question": "What strains of Potato Virus Y are particularly important for causing internal necrosis in certain potato varieties?",
+    "ground_truth": "The strains of Potato Virus Y that are particularly important for causing substantial internal necrosis are PVYn:o and PVYntn.",
+    "source_document": "Potato Virus Y.pdf"
+  },
+  {
+    "question": "What cultural control measures can be implemented to manage Potato Virus Y in potato cultivation?",
+    "ground_truth": "Cultural control measures include using seed from a certified program that tests for viruses, disinfecting cutting and planting equipment, avoiding cutting sprouted seed tubers, minimizing cultivation to prevent mechanical spread, using solid-set irrigation, and roguing infected plants early in the season.",
+    "source_document": "Potato Virus Y.pdf"
+  },
+  {
+    "question": "How can chemical control be utilized to manage the spread of Potato Virus Y in a field?",
+    "ground_truth": "Chemical control can be utilized by controlling aphids, as preventing the initial spread into a field is unlikely, but controlling the spread of the virus within a field is possible through the use of insecticides.",
+    "source_document": "Potato Virus Y.pdf"
+  },
+  {
+    "question": "What are the major biotic constraints affecting potato quality and yield?",
+    "ground_truth": "Diseases caused by fungi, bacteria, and viruses are among the major biotic constraints affecting the quality and yield of potato tubers.",
+    "source_document": "Recent Advancements in Integrated Management of Potato Diseases.pdf"
+  },
+  {
+    "question": "What is the economic impact of the oomycete pathogen Phytophthora infestans on global potato production?",
+    "ground_truth": "The oomycete pathogen Phytophthora infestans, causing potato late blight, results in a loss of €6.1 billion in the global potato production system.",
+    "source_document": "Recent Advancements in Integrated Management of Potato Diseases.pdf"
+  },
+  {
+    "question": "What integrated management practices are recommended for controlling potato diseases?",
+    "ground_truth": "Successful disease management practices in potato involve cultural management, crop rotations, seed certifications, use of natural and synthetic pesticides, bioagents, disease forecasting models, germplasm screening, and development of resistant varieties.",
+    "source_document": "Recent Advancements in Integrated Management of Potato Diseases.pdf"
+  },
+  {
+    "question": "How does the emergence of new virulent strains of pathogens affect potato cultivation?",
+    "ground_truth": "The emergence of new virulent and aggressive races of fungi and biotypes of vectors, exacerbated by consistent climate change, poses significant challenges for potato cultivation.",
+    "source_document": "Recent Advancements in Integrated Management of Potato Diseases.pdf"
+  },
+  {
+    "question": "What is the primary pathogen responsible for powdery scab in potatoes?",
+    "ground_truth": "The primary pathogen responsible for powdery scab in potatoes is Spongospora subterranea f. sp. subterranea.",
+    "source_document": "Review Powdery Scab of Potato Increased Knowledge of Pathogen Biology and Disease.pdf"
+  },
+  {
+    "question": "What environmental conditions favor the development of powdery scab in potatoes?",
+    "ground_truth": "Powdery scab thrives in cool, wet, and heavy soils, with optimal temperatures for infection ranging from 12 to 17 °C.",
+    "source_document": "Review Powdery Scab of Potato Increased Knowledge of Pathogen Biology and Disease.pdf"
+  },
+  {
+    "question": "What are some recommended strategies for managing powdery scab in potato cultivation?",
+    "ground_truth": "Recommended strategies for managing powdery scab include planting clean seed into uncontaminated soil, using resistant cultivars, and implementing appropriate irrigation regimes and crop rotation.",
+    "source_document": "Review Powdery Scab of Potato Increased Knowledge of Pathogen Biology and Disease.pdf"
+  },
+  {
+    "question": "How does the pathogen Spongospora subterranea affect potato plant productivity?",
+    "ground_truth": "Spongospora subterranea can disrupt nutrient uptake, reduce water usage, and lead to decreased dry matter production, resulting in smaller shoots and fewer leaves in infected potato plants.",
+    "source_document": "Review Powdery Scab of Potato Increased Knowledge of Pathogen Biology and Disease.pdf"
+  },
+  {
+    "question": "What are the primary pathogens responsible for Early Blight in potatoes?",
+    "ground_truth": "Early Blight is caused by two species of the genus Alternaria: A. solani and A. alternata.",
+    "source_document": "Review_On_Early_Blight_Alternaria_spp_of.pdf"
+  },
+  {
+    "question": "What are the typical symptoms of Early Blight on potato plants?",
+    "ground_truth": "Symptoms include small, irregular, dark brown to black spots on older leaves, which may enlarge and form concentric rings, giving a 'target-spot' appearance. Infected leaves may turn yellow and die, and severe infections can lead to defoliation.",
+    "source_document": "Review_On_Early_Blight_Alternaria_spp_of.pdf"
+  },
+  {
+    "question": "What cultural practices can be implemented to manage Early Blight in potato crops?",
+    "ground_truth": "Cultural practices include crop rotation with non-host crops, removal and burning of infected plant debris, using certified pathogen-free seed, and promoting air circulation in the fields.",
+    "source_document": "Review_On_Early_Blight_Alternaria_spp_of.pdf"
+  },
+  {
+    "question": "Under what environmental conditions does Early Blight develop most rapidly?",
+    "ground_truth": "Early Blight develops most rapidly during periods of alternating wet and dry weather, particularly in warm, humid conditions with free moisture from rain or dew.",
+    "source_document": "Review_On_Early_Blight_Alternaria_spp_of.pdf"
+  },
+  {
+    "question": "What are the primary symptoms of Rhizoctonia disease in potato plants?",
+    "ground_truth": "Symptoms include brown to black sunken lesions on sprouts, stolons, or roots shortly after plant emergence, which may cause stem girdling, resulting in wilting and death. Additionally, dark-colored sclerotia grow on daughter tubers, referred to as black scurf, which is the most noticeable symptom.",
+    "source_document": "Rhizoctonia Disease of Potato Epidemiology, Toxin Types and Management.pdf"
+  },
+  {
+    "question": "What factors influence the severity of Rhizoctonia disease in potatoes?",
+    "ground_truth": "The severity of Rhizoctonia disease depends on the strain of R. solani involved, the potato variety, and environmental factors such as soil conditions and temperature.",
+    "source_document": "Rhizoctonia Disease of Potato Epidemiology, Toxin Types and Management.pdf"
+  },
+  {
+    "question": "What are some recommended management strategies for controlling Rhizoctonia disease in potatoes?",
+    "ground_truth": "Management strategies include biocontrol using antagonistic bacteria like Bacillus spp. and Pseudomonas spp., cultural practices such as crop rotation and organic amendments, and chemical control with fungicides, although the latter is often limited due to cost and resistance issues.",
+    "source_document": "Rhizoctonia Disease of Potato Epidemiology, Toxin Types and Management.pdf"
+  },
+  {
+    "question": "How does Rhizoctonia solani survive in the environment?",
+    "ground_truth": "Rhizoctonia solani survives in the environment through mycelia or sclerotia found in soil or rotting plant matter, which can live for many years in plant residues and soil.",
+    "source_document": "Rhizoctonia Disease of Potato Epidemiology, Toxin Types and Management.pdf"
+  },
+  {
+    "question": "What is the primary cause of Silver Scurf in potatoes?",
+    "ground_truth": "Silver scurf is caused by the fungus Helminthosporium solani.",
+    "source_document": "Silver Scurf of Potato.pdf"
+  },
+  {
+    "question": "What are the visible symptoms of Silver Scurf on potato tubers?",
+    "ground_truth": "Symptoms usually appear at the stolon end of the tuber as small pale brown spots, which can develop into brown blemishes that lower the market value of the crop.",
+    "source_document": "Silver Scurf of Potato.pdf"
+  },
+  {
+    "question": "What control practices are recommended to manage Silver Scurf in potato cultivation?",
+    "ground_truth": "Control practices include planting certified seed, inspecting seed upon receipt, applying fungicides, rotating land out of potatoes for at least 2 years, controlling volunteers, harvesting tubers early, cleaning and disinfecting the storage area, and manipulating storage conditions to lower temperature and humidity.",
+    "source_document": "Silver Scurf of Potato.pdf"
+  },
+  {
+    "question": "How does the storage environment affect the severity of Silver Scurf?",
+    "ground_truth": "The incidence and severity of Silver Scurf can increase significantly during storage, especially under high relative humidity (>90%) and temperatures of 3°C (38°F) or higher, which favor the fungus's sporulation and infection of healthy tubers.",
+    "source_document": "Silver Scurf of Potato.pdf"
+  },
+  {
+    "question": "What are the primary soil amendments evaluated in the study for managing Late Blight in potatoes?",
+    "ground_truth": "The primary soil amendments evaluated in the study include vermicompost, farmyard manure (FYM), sheep manure, and Trichoderma viride.",
+    "source_document": "Studies on Management of Late Blight (Phytophthora infestans (Mont) de.pdf"
+  },
+  {
+    "question": "What was the effect of the T. viride + FYM combination on Late Blight incidence and tuber yield during the 2016 cropping season?",
+    "ground_truth": "The T. viride + FYM combination resulted in the lowest leaf blight incidence of 26.66% at flowering stage and a maximum tuber yield of 185.19 q/ha during the 2016 cropping season.",
+    "source_document": "Studies on Management of Late Blight (Phytophthora infestans (Mont) de.pdf"
+  },
+  {
+    "question": "How does the incidence of Late Blight in un-amended control plots compare to those treated with organic amendments?",
+    "ground_truth": "In un-amended control plots, the incidence of Late Blight was 51.11% at flowering stage and 38.77% at dehaulming stage, which is significantly higher compared to the lower incidences observed with organic amendments.",
+    "source_document": "Studies on Management of Late Blight (Phytophthora infestans (Mont) de.pdf"
+  },
+  {
+    "question": "What are the economic implications of Late Blight on potato production as mentioned in the document?",
+    "ground_truth": "Late Blight causes severe yield losses in potato production, with losses ranging from 20-75% in India and contributing to a global annual crop loss of US $ 12 billion.",
+    "source_document": "Studies on Management of Late Blight (Phytophthora infestans (Mont) de.pdf"
+  },
+  {
+    "question": "What are the initial symptoms of Charcoal Rot in potato plants?",
+    "ground_truth": "Charcoal rot symptoms appear during hot weather when foliage of affected plants wilts and turns yellow.",
+    "source_document": "Symptoms and Signs Charcoal Rot.pdf"
+  },
+  {
+    "question": "How can Charcoal Rot be distinguished from other diseases like Verticillium wilt?",
+    "ground_truth": "Wilting caused by Macrophomina usually develops quickly, in contrast to Verticillium wilt, and affected stems take on a dusty black appearance when small, black fungal structures (microsclerotia) are formed.",
+    "source_document": "Symptoms and Signs Charcoal Rot.pdf"
+  },
+  {
+    "question": "What conditions favor the development of Charcoal Rot in potato tubers?",
+    "ground_truth": "Tuber infections develop quickly when soil temperatures are 90°F or higher, and infections occur around eyes, in enlarged lenticels due to high soil moisture, and where the stolon attaches.",
+    "source_document": "Symptoms and Signs Charcoal Rot.pdf"
+  },
+  {
+    "question": "What management practices can help control Charcoal Rot in potato cultivation?",
+    "ground_truth": "Management practices include planting certified seed tubers, harvesting as soon as tubers have matured, avoiding tuber injury during harvest, and rotating to nonhost crops for several years.",
+    "source_document": "Symptoms and Signs Charcoal Rot.pdf"
+  },
+  {
+    "question": "What are the primary pathogens responsible for Verticillium wilt in potatoes?",
+    "ground_truth": "Verticillium wilt is caused by either Verticillium dahliae or Verticillium albo-atrum.",
+    "source_document": "Verticillium wilt of potato   the pathogen  disease and management  .pdf"
+  },
+  {
+    "question": "How does Verticillium dahliae affect water transport in potato plants?",
+    "ground_truth": "Verticillium dahliae invades xylem elements, disrupts water transport in plants, and causes vascular wilt.",
+    "source_document": "Verticillium wilt of potato   the pathogen  disease and management  .pdf"
+  },
+  {
+    "question": "What management strategies can be employed to control Verticillium wilt in potatoes?",
+    "ground_truth": "Management strategies should focus on reducing initial inoculum in soil and restricting vascular infection, including tactics such as crop rotation, soil fumigation, green manures, soil solarization, and using resistant potato varieties.",
+    "source_document": "Verticillium wilt of potato   the pathogen  disease and management  .pdf"
+  },
+  {
+    "question": "What are the symptoms of Verticillium wilt in potato plants?",
+    "ground_truth": "Symptoms include interveinal chlorosis on leaves, wilting and necrosis that progress acropetally from the stem base, and a tan vascular discoloration near the stem base.",
+    "source_document": "Verticillium wilt of potato   the pathogen  disease and management  .pdf"
+  },
+  {
+    "question": "What are the primary pathogens responsible for Verticillium wilt in potatoes?",
+    "ground_truth": "Verticillium wilt is caused by either Verticillium dahliae or Verticillium albo-atrum, with Verticillium dahliae being the major pathogen in Maine.",
+    "source_document": "Verticillium Wilt of Potatoes.pdf"
+  },
+  {
+    "question": "What are the typical symptoms of Verticillium wilt observed in potato plants?",
+    "ground_truth": "Symptoms typically include yellowing and eventual death of the leaves and stems, starting with the top leaves or lower leaves, and wilting of leaflets on one side of a petiole. The xylem of infected stems may appear brown when cut at the soil line.",
+    "source_document": "Verticillium Wilt of Potatoes.pdf"
+  },
+  {
+    "question": "How can the spread of Verticillium wilt be controlled in potato cultivation?",
+    "ground_truth": "Control measures include planting resistant potato varieties, avoiding repeated planting of potatoes in infested fields, implementing a three-year crop rotation, raking and burning potato tops in infested fields, and using high-quality seed from fields without a history of Verticillium wilt.",
+    "source_document": "Verticillium Wilt of Potatoes.pdf"
+  },
+  {
+    "question": "What environmental conditions exacerbate the severity of Verticillium wilt in potato plants?",
+    "ground_truth": "The severity of Verticillium wilt is increased in low fertility soils or water-stressed plants, and the pathogen grows and spreads more quickly when soil moisture is high, although wilt is more severe when soil moisture levels are low.",
+    "source_document": "Verticillium Wilt of Potatoes.pdf"
+  },
+  {
+    "question": "What are the primary symptoms of Potato Leafroll Virus (PLRV) in infected plants?",
+    "ground_truth": "Primary infection symptoms include pale, upright, and rolled upper leaves with some reddening at the leaf edges, while secondary infection results in severely rolled and leathery lower leaves, with an overall stunted, upright, chlorotic appearance.",
+    "source_document": "Virus and Viroid Diseases of Potato.pdf"
+  },
+  {
+    "question": "How is Potato Virus Y (PVY) transmitted and what are its potential effects on potato yields?",
+    "ground_truth": "PVY is transmitted by aphids in a nonpersistent manner and can also be spread mechanically by human activity. It may result in severely depressed yields and can interact with other viruses to cause heavier losses.",
+    "source_document": "Virus and Viroid Diseases of Potato.pdf"
+  },
+  {
+    "question": "What control measures are recommended for managing Potato Spindle Tuber Viroid (PSTV)?",
+    "ground_truth": "Control measures for PSTV include the use of sensitive tests like molecular hybridization to screen true seed and progenies, as well as the selection of certified seed to eliminate the disease from potato stocks.",
+    "source_document": "Virus and Viroid Diseases of Potato.pdf"
+  },
+  {
+    "question": "What distinguishes Potato Virus X (PVX) from other potato viruses in terms of symptom development?",
+    "ground_truth": "PVX is one of the most widely distributed viruses because some potato varieties show no symptoms (latent mosaic), making the full extent of damage from PVX often unrecognized.",
+    "source_document": "Virus and Viroid Diseases of Potato.pdf"
+  }
+]
