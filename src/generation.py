@@ -5,7 +5,10 @@ import time
 
 # --- UPDATED IMPORTS ---
 from langchain_openai import ChatOpenAI
-from langchain_classic.memory import ConversationSummaryBufferMemory
+try:
+    from langchain_classic.memory import ConversationSummaryBufferMemory  # type: ignore[import]
+except ImportError:
+    from langchain_community.memory import ConversationSummaryBufferMemory  # type: ignore[import]
 from langchain_core.documents import Document
 from langchain_core.prompts import PromptTemplate
 # -----------------------

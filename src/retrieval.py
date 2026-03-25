@@ -10,7 +10,10 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.retrievers import BM25Retriever
 
 # --- UPDATED IMPORTS ---
-from langchain_classic.retrievers import EnsembleRetriever 
+try:
+    from langchain_classic.retrievers import EnsembleRetriever  # type: ignore[import]
+except ImportError:
+    from langchain_community.retrievers import EnsembleRetriever  # type: ignore[import]
 from langchain_core.documents import Document
 from langchain_core.retrievers import BaseRetriever
 # -----------------------
@@ -19,6 +22,9 @@ from src.logging_utils import setup_logger, timer, log_timing, log_retrieval_met
 
 # Point this to the new multimodal index directory
 FAISS_INDEX_PATH = "faiss_index_multimodal"
+
+# Feature flags — set ENABLE_BM25=false in Render env vars to save ~80MB RAM
+ENABLE_BM25 = os.getenv("ENABLE_BM25", "true").lower() == "true"
 
 # Initialize logger
 logger = setup_logger('retrieval')
@@ -60,18 +66,24 @@ class EnhancedRetriever(BaseRetriever):
         )
         
         # Try to create BM25 retriever for hybrid search
-        try:
-            self._setup_bm25_retriever()
-            if self._bm25_retriever:
-                self._ensemble_retriever = EnsembleRetriever(
-                    retrievers=[self._semantic_retriever, self._bm25_retriever],
-                    weights=[0.7, 0.3]
-                )
-            else:
+        # Set ENABLE_BM25=false in env to skip BM25 and save ~80MB RAM on free-tier hosts
+        if ENABLE_BM25:
+            try:
+                self._setup_bm25_retriever()
+                if self._bm25_retriever:
+                    self._ensemble_retriever = EnsembleRetriever(
+                        retrievers=[self._semantic_retriever, self._bm25_retriever],
+                        weights=[0.7, 0.3]
+                    )
+                else:
+                    self._ensemble_retriever = self._semantic_retriever
+            except Exception:
                 self._ensemble_retriever = self._semantic_retriever
-        except Exception:
-            self._ensemble_retriever = self._semantic_retriever
+                self._bm25_retriever = None
+        else:
+            logger.info("BM25 disabled via ENABLE_BM25=false — using semantic-only retrieval")
             self._bm25_retriever = None
+            self._ensemble_retriever = self._semantic_retriever
 
     # method to define BM25 retriever
     def _setup_bm25_retriever(self):

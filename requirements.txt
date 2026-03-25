@@ -1,22 +1,47 @@
-langchain
-langchain_community
-pypdf
-PyMuPDF
-Pillow
-faiss-cpu
-huggingface_hub
-python-dotenv
-langchain_huggingface
-langchain-openai
-streamlit
-pandas
-rank_bm25
-nltk
+# ── Core LangChain ────────────────────────────────────────────────────
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+langchain-text-splitters>=0.2.0
+langchain-classic>=0.1.0          # EnsembleRetriever, ConversationSummaryBufferMemory
 
-# FastAPI Backend Dependencies (optional here, already in backend)
-fastapi
-uvicorn[standard]
-pydantic
-python-multipart
-websockets
-aiofiles
+# ── OpenAI ────────────────────────────────────────────────────────────
+openai>=1.0.0
+
+# ── Vector Store & Retrieval ──────────────────────────────────────────
+faiss-cpu>=1.7.4
+rank_bm25>=0.2.2
+
+# ── Embeddings / CLIP (image analysis) ───────────────────────────────
+transformers>=4.40.0
+torch>=2.0.0                      # Required by transformers/CLIP
+langchain-huggingface>=0.0.3
+
+# ── PDF & Image Processing ────────────────────────────────────────────
+pymupdf>=1.24.0                   # fitz — PDF extraction
+pypdf>=4.0.0                      # fallback PDF reader
+Pillow>=10.0.0                    # PIL — image handling
+
+# ── RAG Evaluation ────────────────────────────────────────────────────
+ragas>=0.1.0
+datasets>=2.14.0
+pandas>=2.0.0
+tqdm>=4.66.0
+tenacity>=8.2.0
+
+# ── NLP Utilities ─────────────────────────────────────────────────────
+nltk>=3.8.0
+scikit-learn>=1.3.0
+
+# ── Misc ──────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+psutil>=5.9.0                     # /api/debug/memory endpoint
+huggingface_hub>=0.20.0
+
+# ── FastAPI Backend ───────────────────────────────────────────────────
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.9.0
+python-multipart>=0.0.9
+websockets>=12.0
+aiofiles>=23.0.0
