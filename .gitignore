@@ -1,0 +1,41 @@
+# Environment variables - contains API keys!
+.env
+
+# Large downloaded model files
+/models/
+
+# Generated vector store
+/faiss_index/
+faiss_index_multimodal/
+
+# Python virtual environment
+/myenv/
+/venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Ignore all contents of the extracted_images folder
+extracted_images/
+
+# chat_history.json for local persistent system
+chat_history.json
+
+# SQLite Database
+chat_history.db
+*.db
+
+# Ignore Analysis folder
+Analysis/
+
+# Ignore logs
+logs/
+
+# Ignore reference images
+reference_images/
+
+data/
+*.pdf
+evaluation_dataset_v2.json
+evaluation_results.csv
