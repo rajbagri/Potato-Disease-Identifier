@@ -5,6 +5,7 @@ from datetime import datetime
 # Chat Models
 class ChatCreate(BaseModel):
     name: str
+    user_id: Optional[str] = None
 
 class ChatRename(BaseModel):
     new_name: str

@@ -235,7 +235,9 @@ class CLIPDiseaseAnalyzer:
             inputs = {k: v.to(self.device) for k, v in inputs.items()}
 
             with self.torch.no_grad():
-                text_features = self.model.get_text_features(**inputs)
+                text_outputs = self.model.get_text_features(**inputs)
+                text_features = getattr(text_outputs, 'text_embeds', getattr(text_outputs, 'pooler_output', text_outputs))
+                if isinstance(text_features, tuple): text_features = text_features[0]
                 text_features = text_features / text_features.norm(dim=-1, keepdim=True)
 
             avg_emb = text_features.mean(dim=0).cpu().numpy()
@@ -250,7 +252,9 @@ class CLIPDiseaseAnalyzer:
         inputs = {k: v.to(self.device) for k, v in inputs.items()}
 
         with self.torch.no_grad():
-            image_features = self.model.get_image_features(**inputs)
+            image_outputs = self.model.get_image_features(**inputs)
+            image_features = getattr(image_outputs, 'image_embeds', getattr(image_outputs, 'pooler_output', image_outputs))
+            if isinstance(image_features, tuple): image_features = image_features[0]
             image_features = image_features / image_features.norm(dim=-1, keepdim=True)
 
         return image_features.squeeze(0).cpu().numpy().astype(np.float32)

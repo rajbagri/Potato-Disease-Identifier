@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
+from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect, Header, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 import uuid
@@ -55,6 +55,12 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+from fastapi.staticfiles import StaticFiles
+from src.image_analyzer import REFERENCE_IMAGES_DIR
+import os
+os.makedirs(REFERENCE_IMAGES_DIR, exist_ok=True)
+app.mount("/images", StaticFiles(directory=REFERENCE_IMAGES_DIR), name="images")
 
 # Global instances — loaded lazily on first request to reduce startup RAM
 qa_chain = None
@@ -124,10 +130,11 @@ async def health_check():
 # ==================== Chat Endpoints ====================
 
 @app.get("/api/chats", response_model=List[ChatResponse])
-async def list_chats():
-    """Get all chats"""
+async def list_chats(request: Request):
+    """Get all chats for the authenticated user"""
     try:
-        chats_data = get_chats()
+        user_id = request.headers.get("x-user-id")
+        chats_data = get_chats(user_id=user_id)
         chats = []
         
         for chat_id, name, created_at in chats_data:
@@ -144,11 +151,13 @@ async def list_chats():
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/api/chats", response_model=ChatResponse)
-async def create_chat(chat: ChatCreate):
-    """Create a new chat"""
+async def create_chat(chat: ChatCreate, request: Request):
+    """Create a new chat for the authenticated user"""
     try:
         chat_id = str(uuid.uuid4())
-        add_chat(chat_id, chat.name)
+        # Use user_id from header, fallback to body field
+        user_id = request.headers.get("x-user-id") or chat.user_id
+        add_chat(chat_id, chat.name, user_id=user_id)
         chat_row = get_chat_by_id(chat_id)
         
         return ChatResponse(
@@ -634,10 +643,26 @@ async def analyze_image(
             'confidence': analysis['confidence'],
         })
 
+        # Save image for future training
+        from src.image_analyzer import REFERENCE_IMAGES_DIR
+        import os
+        
+        # Create safe directory name from prediction
+        folder_name = analysis['prediction'].replace(" ", "_")
+        upload_dir = os.path.join(REFERENCE_IMAGES_DIR, folder_name)
+        os.makedirs(upload_dir, exist_ok=True)
+        
+        saved_image_name = f"{folder_name}/image_{request_id}.jpg"
+        saved_image_path = os.path.join(REFERENCE_IMAGES_DIR, saved_image_name)
+        
+        pil_image.save(saved_image_path, "JPEG")
+        image_url = f"/images/{saved_image_name}"
+
         # Build response
         response_data = {
             "prediction": analysis['display_name'],
             "confidence": analysis['confidence'],
+            "image_url": image_url,
             "top_candidates": analysis['all_candidates'],
             "matched_ref_images": [
                 {
@@ -820,6 +845,6 @@ if __name__ == "__main__":
         app,
         host=API_HOST,
         port=API_PORT,
-        debug=DEBUG,
+        log_level="debug" if DEBUG else "info",
         reload=DEBUG
     )

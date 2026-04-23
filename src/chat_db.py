@@ -14,7 +14,8 @@ def init_db():
     c.execute('''CREATE TABLE IF NOT EXISTS chats (
         id TEXT PRIMARY KEY,
         name TEXT,
-        created_at TEXT
+        created_at TEXT,
+        user_id TEXT
     )''')
     c.execute('''CREATE TABLE IF NOT EXISTS messages (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -35,19 +36,28 @@ def init_db():
             c.execute('ALTER TABLE messages ADD COLUMN metadata TEXT')
             conn.commit()
         except Exception:
-            # ignore if cannot alter (older SQLite versions)
+            pass
+
+    # Ensure user_id column exists for older DBs (migration)
+    c.execute("PRAGMA table_info(chats)")
+    chat_cols = [r[1] for r in c.fetchall()]
+    if 'user_id' not in chat_cols:
+        try:
+            c.execute('ALTER TABLE chats ADD COLUMN user_id TEXT')
+            conn.commit()
+        except Exception:
             pass
     conn.close()
 
 # Add a new chat
-def add_chat(chat_id, name):
+def add_chat(chat_id, name, user_id=None):
     conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
     # Check if chat already exists to prevent unique constraint errors
     c.execute('SELECT id FROM chats WHERE id = ?', (chat_id,))
     if c.fetchone() is None:
-        c.execute('INSERT INTO chats (id, name, created_at) VALUES (?, ?, ?)',
-                  (chat_id, name, datetime.now().isoformat()))
+        c.execute('INSERT INTO chats (id, name, created_at, user_id) VALUES (?, ?, ?, ?)',
+                  (chat_id, name, datetime.now().isoformat(), user_id))
         conn.commit()
     conn.close()
 
@@ -67,11 +77,14 @@ def add_message(chat_id, sender, content, metadata: dict = None):
     conn.commit()
     conn.close()
 
-# Get all chats
-def get_chats():
+# Get all chats, optionally filtered by user_id
+def get_chats(user_id=None):
     conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
-    c.execute('SELECT id, name, created_at FROM chats ORDER BY created_at DESC')
+    if user_id:
+        c.execute('SELECT id, name, created_at FROM chats WHERE user_id = ? ORDER BY created_at DESC', (user_id,))
+    else:
+        c.execute('SELECT id, name, created_at FROM chats ORDER BY created_at DESC')
     chats = c.fetchall()
     conn.close()
     return chats
